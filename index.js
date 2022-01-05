@@ -19,7 +19,7 @@ function  selectDifferentDrivers( drivers,rutundrivers ){
 
     if(rutundrivers=" returnFirstTwoDrivers"){
         return drivers.slice(0,2)
-    }else{
+    }else if (rutundrivers=" returnLastTwoDrivers"){
         return drivers.slice(-2)
     }
 }
